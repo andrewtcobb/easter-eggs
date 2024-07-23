@@ -3,7 +3,7 @@
   "homepage": "https://github.com/andrewtcobb/easter-egg",
   "private": false,
   "version": "0.0.0",
-  "main": "dist/easter-egg.js",
+  "main": "dist/main.js",
   "type": "module",
   "files": [
     "dist"
@@ -32,6 +32,7 @@
     "react-dom": "^18.3.1",
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
-    "vite-plugin-dts": "^4.0.0-beta.1"
+    "vite-plugin-dts": "^4.0.0-beta.1",
+    "vite-plugin-lib-inject-css": "^2.1.1"
   }
 }

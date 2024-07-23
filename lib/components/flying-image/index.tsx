@@ -1,7 +1,7 @@
 import beachBall from "../../assets/beach_ball.png";
 import helloThere from "../../assets/hello_there.mp3";
 import { useEasterEgg } from "../../hooks/useEasterEgg";
-import "./styles.css";
+import styles from "./styles.module.css";
 
 export function FlyingImage({ image = beachBall }) {
   const isVisible = useEasterEgg();
@@ -12,7 +12,7 @@ export function FlyingImage({ image = beachBall }) {
 
   return (
     <>
-      <div className="fly">
+      <div className={`${styles.fly}`}>
         {isVisible && (
           <>
             <img
