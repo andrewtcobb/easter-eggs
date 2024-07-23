@@ -1,6 +1,6 @@
 {
-  "name": "easter-egg",
-  "homepage": "https://github.com/andrewtcobb/easter-egg",
+  "name": "react-easter-eggs",
+  "homepage": "https://github.com/andrewtcobb/easter-eggs",
   "private": false,
   "version": "0.0.0",
   "main": "dist/main.js",

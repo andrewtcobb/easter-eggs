@@ -1,4 +1,4 @@
-# Easter Eggs
+# React Easter Eggs
 
 This React component library contains a variety of different easter eggs you can add to a project with minimal effort.
 
