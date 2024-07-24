@@ -8,13 +8,18 @@ import { libInjectCss } from "vite-plugin-lib-inject-css";
 export default defineConfig({
   plugins: [
     react(),
-    dts({ exclude: ["src"], insertTypesEntry: true }),
+    dts({
+      exclude: ["src"],
+      insertTypesEntry: true,
+      entryRoot: "lib",
+      outDir: "dist",
+    }),
     libInjectCss(),
   ],
   build: {
     copyPublicDir: false,
     lib: {
-      entry: resolve(__dirname, "lib/main.ts"),
+      entry: resolve(__dirname, "lib/main"),
       formats: ["es"],
     },
     rollupOptions: {
