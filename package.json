@@ -6,7 +6,8 @@
   },
   "homepage": "https://github.com/andrewtcobb/easter-eggs",
   "repository": {
-    "type": "https://github.com/andrewtcobb/easter-eggs"
+    "type": "git",
+    "url": "https://github.com/andrewtcobb/easter-eggs"
   },
   "license": "MIT",
   "private": false,
